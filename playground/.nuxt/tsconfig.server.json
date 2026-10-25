@@ -1,0 +1,158 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "./types/nitro-imports"
+      ],
+      "~/*": [
+        "../*"
+      ],
+      "@/*": [
+        "../*"
+      ],
+      "~~/*": [
+        "../*"
+      ],
+      "@@/*": [
+        "../*"
+      ],
+      "@nuxt/devtools": [
+        "../../node_modules/.pnpm/@nuxt+devtools@3.4.4_@nuxt+_4c8aa0039e7516473ac8bde7492d741c/node_modules/@nuxt/devtools"
+      ],
+      "@nuxt/schema": [
+        "../../node_modules/.pnpm/@nuxt+schema@4.6.2/node_modules/@nuxt/schema"
+      ],
+      "nuxt": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt"
+      ],
+      "@unhead/vue": [
+        "../../node_modules/.pnpm/@unhead+vue@3.4.3_@oxc-proj_b97c46d03aed99c55cb7e11e700d0cd1/node_modules/@unhead/vue"
+      ],
+      "vue": [
+        "../../node_modules/.pnpm/vue@3.5.44_typescript@6.0.3/node_modules/vue"
+      ],
+      "@vue/runtime-core": [
+        "../../node_modules/.pnpm/@vue+runtime-core@3.5.44/node_modules/@vue/runtime-core"
+      ],
+      "@vue/compiler-sfc": [
+        "../../node_modules/.pnpm/@vue+compiler-sfc@3.5.44/node_modules/@vue/compiler-sfc"
+      ],
+      "vue-router": [
+        "../../node_modules/.pnpm/vue-router@5.4.0_@types+nod_2df39b234e0ff741140fa57078dbd9ea/node_modules/vue-router"
+      ],
+      "vue-router/auto-routes": [
+        "../../node_modules/.pnpm/vue-router@5.4.0_@types+nod_2df39b234e0ff741140fa57078dbd9ea/node_modules/vue-router/vue-router-auto-routes.d.mts"
+      ],
+      "vite/client": [
+        "../../node_modules/.pnpm/@voidzero-dev+vite-plus-cor_5818722ecbc489b29cc1d00d32812e7c/node_modules/@voidzero-dev/vite-plus-core/dist/vite/client"
+      ],
+      "defu": [
+        "../../node_modules/.pnpm/defu@6.1.7/node_modules/defu"
+      ],
+      "consola": [
+        "../../node_modules/.pnpm/consola@3.4.2/node_modules/consola"
+      ],
+      "ofetch": [
+        "../../node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch"
+      ],
+      "nitropack/types": [
+        "../../node_modules/.pnpm/nitropack@2.13.5_@voidzero-_269f3ae3ea029bdd70ef0bbe4c321859/node_modules/nitropack/types"
+      ],
+      "nitropack/runtime": [
+        "../../node_modules/.pnpm/nitropack@2.13.5_@voidzero-_269f3ae3ea029bdd70ef0bbe4c321859/node_modules/nitropack/runtime"
+      ],
+      "nitropack": [
+        "../../node_modules/.pnpm/nitropack@2.13.5_@voidzero-_269f3ae3ea029bdd70ef0bbe4c321859/node_modules/nitropack"
+      ],
+      "h3": [
+        "../../node_modules/.pnpm/h3@1.15.11/node_modules/h3"
+      ],
+      "crossws": [
+        "../../node_modules/.pnpm/crossws@0.3.5/node_modules/crossws"
+      ],
+      "#shared": [
+        "../shared"
+      ],
+      "#shared/*": [
+        "../shared/*"
+      ],
+      "#server": [
+        "../server"
+      ],
+      "#server/*": [
+        "../server/*"
+      ],
+      "#build": [
+        "./"
+      ],
+      "#build/*": [
+        "./*"
+      ],
+      "#internal/nuxt/paths": [
+        "../../node_modules/.pnpm/@nuxt+nitro-server@4.6.2_73a0c56f7b5cfa6f87d2c096b6a9382f/node_modules/@nuxt/nitro-server/dist/runtime/utils/paths"
+      ],
+      "nuxt/app": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app"
+      ],
+      "nuxt/app/*": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app/*"
+      ],
+      "#unhead/composables": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/head/runtime/composables"
+      ],
+      "#app/island-hash": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app/island-hash"
+      ],
+      "#app/island-props": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app/island-props"
+      ],
+      "#app/internal/*": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app/internal/*"
+      ],
+      "#app/types": [
+        "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/dist/app/types"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "webworker",
+      "dom.iterable"
+    ],
+    "noUncheckedIndexedAccess": true,
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "./types/nitro-nuxt.d.ts",
+    "../../dist/runtime/server",
+    "../../dist/dist/runtime/server",
+    "../../node_modules/.pnpm/@nuxt+devtools@3.4.4_@nuxt+_4c8aa0039e7516473ac8bde7492d741c/node_modules/runtime/server",
+    "../../node_modules/.pnpm/@nuxt+devtools@3.4.4_@nuxt+_4c8aa0039e7516473ac8bde7492d741c/node_modules/dist/runtime/server",
+    "../../node_modules/.pnpm/@nuxt+telemetry@2.9.1_@nuxt_5ed4b7b450a283d5f88303107a5472dc/node_modules/runtime/server",
+    "../../node_modules/.pnpm/@nuxt+telemetry@2.9.1_@nuxt_5ed4b7b450a283d5f88303107a5472dc/node_modules/dist/runtime/server",
+    "../server/**/*",
+    "../shared/**/*.d.ts",
+    "./types/nitro.d.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../../node_modules",
+    "../../node_modules/.pnpm/nuxt@4.6.2_561bb04acc03cd472e8e40700b031951/node_modules/nuxt/node_modules",
+    "../../node_modules/.pnpm/@nuxt+devtools@3.4.4_@nuxt+_4c8aa0039e7516473ac8bde7492d741c/node_modules/@nuxt/devtools/node_modules",
+    "../../node_modules/.pnpm/@nuxt+telemetry@2.9.1_@nuxt_5ed4b7b450a283d5f88303107a5472dc/node_modules/@nuxt/telemetry/node_modules",
+    "../dist"
+  ]
+}

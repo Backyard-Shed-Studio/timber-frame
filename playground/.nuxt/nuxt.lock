@@ -1,0 +1,10 @@
+{
+  "pid": 17916,
+  "startedAt": 1792665755732,
+  "interactive": false,
+  "command": "dev",
+  "cwd": "D:/Posoroko/TimberFrameStudio/playground",
+  "port": 3000,
+  "hostname": "::1",
+  "url": "http://[::1]:3000"
+}
