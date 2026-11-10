@@ -1,5 +1,5 @@
 {
-  "name": "@backyard-shed-studio/timber-frame",
+  "name": "@shed/timber-frame",
   "version": "1.0.0",
   "description": "Vue 3 component library for Backyard Shed Studio projects",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "@nuxt/kit": "^4.6.2"
   },
   "devDependencies": {
-    "@backyard-shed-studio/the-pencil": "github:Backyard-Shed-Studio/the-pencil",
+    "@shed/the-pencil": "github:Backyard-Shed-Studio/the-pencil",
     "@nuxt/devtools": "^3.4.2",
     "@nuxt/module-builder": "^1.0.3",
     "@nuxt/schema": "^4.6.2",
